@@ -1,0 +1,61 @@
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local application output
+assurance_output*/
+output/
+
+# Local databases and transaction files
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+.databrickscfg
+.azure/
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
